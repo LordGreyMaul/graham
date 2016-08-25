@@ -39,7 +39,16 @@
                     <div class="progress-bar" role="progressbar" aria-valuenow="86" style="width:80%;" aria-valuemin="0" aria-valuemax="100">
                     </div>
                 </div>
-                
+                <h5>SASS<span>92%</span></h5>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="86" style="width:92%;" aria-valuemin="0" aria-valuemax="100">
+                    </div>
+                </div>
+                <h5>Love for Code<span>100%</span></h5>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="86" style="width:100%;" aria-valuemin="0" aria-valuemax="100">
+                    </div>
+                </div>
             </div>
         </div>
         <div class="row about-icons">

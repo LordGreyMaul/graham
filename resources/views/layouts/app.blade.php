@@ -4,6 +4,9 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Hi there and thanks for viewing my website, I'm a Web Developer from Portsmouth in the UK. Please check out all my social channels and links to videos.">
+        <meta name="keywords" content="HTML,CSS,XML,JavaScript,laravel,developer,web dev,php,designer,bootstrap,streamer">
+        <meta name="author" content="Graham Morby-Raybould">
         <title>GMR Portfolio - @yield('title')</title>
         <!-- Fonts -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
@@ -20,7 +23,7 @@
         {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
         <!-- CK Editor Script for creating -->
         
-        <script src="//cdn.ckeditor.com/4.5.9/standard/ckeditor.js"></script>
+        <script src="//cdn.ckeditor.com/4.5.10/full/ckeditor.js"></script>
         
     </head>
     <body id="app-layout">
