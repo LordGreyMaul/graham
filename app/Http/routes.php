@@ -23,19 +23,8 @@ Route::get('contact',
 Route::post('contact', 
   ['as' => 'contact_store', 'uses' => 'ContactController@store']);
 
-// This is app/Http/routes.php
-
-// Authentication Routes...
-Route::get('login', 'Auth\AuthController@showLoginForm');
-Route::post('login', 'Auth\AuthController@login');
-Route::get('logout', 'Auth\AuthController@logout');
-
-// Registration Routes... removed!
-
-// Password Reset Routes...
-Route::get('password/reset/{token?}', 'Auth\PasswordController@showResetForm');
-Route::post('password/email', 'Auth\PasswordController@sendResetLinkEmail');
-Route::post('password/reset', 'Auth\PasswordController@reset');
+// Auth routes
+Route::auth();
 
 // Articles admin only
 Route::group(['middleware' => 'auth'], function () 
