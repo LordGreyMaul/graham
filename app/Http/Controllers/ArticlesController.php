@@ -21,7 +21,7 @@ class ArticlesController extends Controller
     // Create an article view
     public function create()
     {
-    	return view('articles.create');
+    	return view('Articles.create');
     }
     //Store an article
     public function store(ArticleRequest $request) 
@@ -33,13 +33,13 @@ class ArticlesController extends Controller
     public function show($id)
     {
         $articles = articles::findOrFail($id);
-        return view('articles.show' , compact('articles'));
+        return view('Articles.show' , compact('articles'));
     } 
     //Edit Articles
     public function edit($id) 
     {
         $articles = articles::findOrFail($id);
-        return view('articles.edit' , compact('articles'));
+        return view('Articles.edit' , compact('articles'));
     }
     //update articles
     public function update($id, ArticleRequest $request)
