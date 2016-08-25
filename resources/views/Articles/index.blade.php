@@ -3,17 +3,19 @@
 <div class="container">
 <div class="row">
 	<div class="col-md-12">
+	<hr>
 		<div class="col-md-6">
 			<h1>Articles</h1>
 		</div>
 		<div class="col-md-6">
-			<a href="#" class="btn btn-primary pull-right" style="margin-top: 25px;">Create a New Article</a>
+			<a href="{{URL::asset('/articles/create')}}" class="btn btn-primary pull-right" style="margin-top: 25px;">Create a New Article</a>
 		</div>
-		<hr>
+		
 	</div>
 </div>
 	<div class="row">
 		<div class="col-md-12">
+		<hr>
 			<table class="table table-bordered">
 				<thead class="thead-inverse">
 				<tr>
