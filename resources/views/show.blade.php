@@ -7,6 +7,7 @@
 					<hr>
 					@foreach($articles->photo as $photos)
 					<img src="{{URL::asset($photos->path)}}" alt="{{$articles->title}}" class="img-responsive">
+					<hr>
 					@endforeach
 			</div>
 			<div class="col-md-6">
