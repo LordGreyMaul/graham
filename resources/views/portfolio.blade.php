@@ -1,4 +1,5 @@
 @extends('layouts.app')
+@section('metadescription' , 'Portfolio - Hi there and thanks for viewing my website, Im a Web Developer from Portsmouth in the UK. please check out all my social channels and links to videos.')
 @section('content')
 <!-- section Portfolio
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
