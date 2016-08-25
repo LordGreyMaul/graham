@@ -15,7 +15,7 @@
                 <p>Hi there and thanks for viewing my website. I have been developing now for 10 years plus on various
                 different platforms and working with IT starting way back on my compaq presario in 1998. </p>
                 <p>For me developing is fun and creative, it allows me to enjoy my time sat in front of my computer and to express myself through the wonderful world of coding and design.</p>
-                <p>I have just starting to build a very attractive portfolio and as time moves on this will grow and get 
+                <p>I have just started to build a very attractive portfolio and as time moves on this will grow and get 
                 better and bolder. This very site you see is my third using the Laravel framework and feel I can offer so much to you and your projects. So please enjoy your stay and get in touch.</p>
             </div>
             <div class="col-md-6 col-sm-12 col-xs-12 skills">
