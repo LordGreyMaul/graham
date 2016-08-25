@@ -42,7 +42,7 @@
             </div>
         </div>
         <div class="row about-icons">
-            <div class="col-md-2 col-sm-4 col-xs-6 about-iconbox">
+            <div class="col-md-2 col-sm-4 col-xs-6 hidden-sm hidden-xs about-iconbox">
                 <div class="icon icon-basic-webpage-txt"></div>
                 <h6>Webmaster</h6>
             </div>

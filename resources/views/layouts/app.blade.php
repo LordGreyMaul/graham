@@ -30,7 +30,7 @@
             <div class="container-fluid">
                 <!--Header logo on the left side-->
                 <div class="col-md-4 col-sm-1 col-xs-4 headerLeft">
-                    <a href="index.html">
+                    <a href="{{URL::asset('/')}}">
                         <img src="{{URL::asset('/images/site-logo2.png')}}" alt="">
                     </a>
                 </div>
