@@ -14,7 +14,7 @@
 			<div class="col-md-6">
 				<h1>{{$articles->title}}</h1>
 				<hr>
-				<p>{!! strip_tags($articles->body , '<p><em><strong><a>') !!}</p>
+				<p>{!! strip_tags($articles->body , '<p><em><strong><a><h2><h1><h3>') !!}</p>
 				<hr>
 				<p>Created: {{ str_limit($articles->published_at , $limit = 10 , $end = '.') }}</p>
 			</div>	
