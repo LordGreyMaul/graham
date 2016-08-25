@@ -51,7 +51,7 @@
                                     <li><a href="{{ URL::asset('/resume') }}">Resume</a></li>
                                     <li><a href="{{ URL::asset('/portfolio') }}">Work</a></li>
                                     <li><a href="{{ URL::asset('/blog') }}">Blog</a></li>
-                                    <li><a href="contact">Contact</a></li>
+                                    <li><a href="{{ URL::asset('/contact') }}">Contact</a></li>
                                 </ul>
                             </div>
                         </nav>
@@ -90,19 +90,19 @@
                     Copyright © <span>Graham Morby-Raybould</span> 2016. All rights reserved.
                 </div>
                 <div class="col-md-6 col-sm-12 col-xs-12 fIcons">
-                    <a href="#">
+                    <a href="https://www.facebook.com/tremonster82" target="_blank">
                         <span aria-hidden="true" class="social_facebook_circle"></span>
                     </a>
                     <a href="https://twitter.com/GrahamMorbyDev" target="_blank">
                         <span aria-hidden="true" class="social_twitter_circle"></span>
                     </a>
-                    <a href="#">
+                    <a href="https://www.youtube.com/channel/UClfxVWE8AQvinfyODeCbutw" target="_blank">
                         <span aria-hidden="true" class="social_youtube_circle"></span>
                     </a>
-                    <a href="#">
+                    <a href="https://www.instagram.com/phoenixmorby/" target="_blank">
                         <span aria-hidden="true" class="social_instagram_circle"></span>
                     </a>
-                    <a href="#">
+                    <a href="https://www.twitch.tv/grahammorbydev/profile" target="_blank">
                         <span aria-hidden="true" class="social_rss_circle"></span>
                     </a>
                 </div>
