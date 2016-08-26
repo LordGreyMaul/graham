@@ -22,7 +22,7 @@
 						<h4>{{$posts->title}}</h4>
 						<p class="body">{!! strip_tags(str_limit($posts->body , $limit = 100 , $end = '...')) !!}<p>
 							<p class="date">{!! str_limit($posts->published_at , $limit = 10 , $end = '') !!}</p>
-							<a class="button" href="http://localhost:8888/graham/graham/public/show/{{$posts->id}}">Read More</a>
+							<a class="button" href="http://grahammorby-raybould.info/show/{{$posts->id}}">Read More</a>
 						</div>
 						@endforeach
 					</div>
