@@ -22,8 +22,9 @@
         <link rel="stylesheet" href="{{URL::asset('/icons/Elegant/style.css')}}" />
         {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
         <!-- CK Editor Script for creating -->
+        <script src="{{URL::asset('/js/ckeditor/ckeditor.js')}}"></script>
         
-        <script src="//cdn.ckeditor.com/4.5.10/full/ckeditor.js"></script>
+        
         <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -128,6 +129,7 @@
         <script src="{{URL::asset('/js/modernizr.custom.js')}}"></script>
         <script src="{{URL::asset('/js/contactform.js')}}"></script>
         <script src="{{URL::asset('/js/treehouse.js')}}"></script>
+
         <!-- Navigation menu-->
         <script src="{{URL::asset('/js/classie.js')}}"></script>
         <script src="{{URL::asset('/js/menu-top.js')}}"></script>

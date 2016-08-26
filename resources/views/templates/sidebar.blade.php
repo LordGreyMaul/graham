@@ -8,7 +8,7 @@
 				<img src="{{URL::asset($photos->path)}}" alt="{{$articles->title}}" class="img-responsive">
 				<hr>
 				@endforeach
-				<p>{!! strip_tags($articles->body , '<p><em><strong><a><h2><h1><h3><iframe>') !!}</p>
+				<p>{!! strip_tags($articles->body , '<p><em><strong><a><h2><h1><h3><iframe><pre><code>') !!}</p>
 				<hr>
 				<p>Created: {{ str_limit($articles->published_at , $limit = 10 , $end = '.') }}</p>
 			</div>
