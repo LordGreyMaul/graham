@@ -10,7 +10,7 @@
 				@endforeach
 				</div>
 				<hr>
-				<p>{!! strip_tags($articles->body , '<p><em><strong><a><h2><h1><h3>') !!}</p>
+				<p>{!! strip_tags($articles->body , '<p><em><strong><a><h2><h1><h3><iframe>') !!}</p>
 				<hr>
 				<p>Created: {{ str_limit($articles->published_at , $limit = 10 , $end = '.') }}</p>
 			
