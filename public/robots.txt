@@ -1,2 +1,5 @@
 User-agent: *
-Disallow:
+Disallow:http://grahammorby-raybould.info/articles
+Disallow:http://grahammorby-raybould.info/articles/create
+Disallow:http://grahammorby-raybould.info/articles/edit
+

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://grahammorby-raybould.info/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://grahammorby-raybould.info/about</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://grahammorby-raybould.info/resume</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://grahammorby-raybould.info/portfolio</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://grahammorby-raybould.info/blog</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://grahammorby-raybould.info/contact</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://grahammorby-raybould.info/show/3</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://grahammorby-raybould.info/show/2</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://grahammorby-raybould.info/show/1</loc>
+  <changefreq>weekly</changefreq>
+</url>
+</urlset>
