@@ -61,7 +61,7 @@ return [
             'password' => env('DB_PASSWORD', 'bKnhbbHsMxmEo3pLBnn2'),
             'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
-            
+            // 'unix_socket'   => getenv('UNIX_SOCKET'),
             'prefix' => '',
             'strict' => false,
             'engine' => null,

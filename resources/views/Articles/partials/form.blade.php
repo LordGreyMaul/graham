@@ -12,6 +12,14 @@
 						{!! Form::label('published_at' , 'Publish On:') !!}
 						{!! Form::input('date' , 'published_at', date('Y-m-d') , ['class' => 'form-control']) !!}
 					</div>
+					<div class="form-group">
+						<label for="template">Template</label>
+						<select name="template" id="template" class="form-control">
+							<option value="sidebar">Sidebar</option>
+							<option value="fullwidth">Full Width</option>
+						</select>
+						<p>If you are using a full width templete, the recommended image size is 1170px x 450px</p>
+					</div>
 					<!-- Submit button to add article -->
 					<div class="form-group">
 					

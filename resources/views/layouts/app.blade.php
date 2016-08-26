@@ -117,6 +117,7 @@
         <script src="{{URL::asset('/js/bootstrap.js')}}"></script>
         <script src="{{URL::asset('/js/modernizr.custom.js')}}"></script>
         <script src="{{URL::asset('/js/contactform.js')}}"></script>
+        <script src="{{URL::asset('/js/treehouse.js')}}"></script>
         <!-- Navigation menu-->
         <script src="{{URL::asset('/js/classie.js')}}"></script>
         <script src="{{URL::asset('/js/menu-top.js')}}"></script>

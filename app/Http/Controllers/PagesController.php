@@ -19,7 +19,8 @@ class PagesController extends Controller
     public function show($id)
     {
     	$articles = articles::findOrFail($id);
-    	return view('show' , compact('articles'));
+        $recent = articles::latest()->published()->get()->take(2);
+    	return view('show' , compact('articles' , 'recent'));
     }
     // show and manage blog page
     public function blog()

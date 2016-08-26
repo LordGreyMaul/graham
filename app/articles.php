@@ -10,7 +10,8 @@ class articles extends Model
     protected $fillable = [
         'title',
         'body',
-        'published_at'
+        'published_at',
+        'template'
     ];
 
     protected $dates = ['published_at'];

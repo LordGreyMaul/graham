@@ -5831,4 +5831,123 @@ body {
     position: relative;
     margin-right: 0; } }
 
+.recentposts {
+  padding: 5px;
+  margin-bottom: 5px; }
+  .recentposts h4 {
+    font-style: 20px; }
+  .recentposts .body {
+    font-style: italic; }
+  .recentposts .date {
+    font-size: 10px; }
+  .recentposts .button {
+    width: auto;
+    cursor: pointer;
+    position: relative;
+    border: 0;
+    text-align: center !important;
+    background: #ffd435;
+    color: #fff;
+    margin: 23px 0px;
+    text-decoration: none;
+    padding: 8px 20px;
+    font-size: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out; }
+    .recentposts .button:hover {
+      color: #000000; }
+
+.wrapImg {
+  height: 450px;
+  overflow: hidden; }
+  .wrapImg img {
+    position: inherit; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #222222; }
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.team-treehouse h1, .team-treehouse h3 {
+  text-align: left;
+  font-size: 22px; }
+
+.team-treehouse h2 {
+  font-weight: normal; }
+
+.team-treehouse a {
+  color: #000000; }
+  .team-treehouse a:hover {
+    color: #ffd435; }
+
+.pieChart {
+  width: 25.5em;
+  margin: 0 auto;
+  padding-top: 1em; }
+
+.pie {
+  height: 12.5em;
+  width: 12.5em;
+  position: relative;
+  float: left; }
+  .pie::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 1;
+    width: 7.5em;
+    height: 7.5em;
+    background: #f9f9f9;
+    border-radius: 50%;
+    top: 2.5em;
+    left: 2.5em; }
+
+.slice {
+  position: absolute;
+  width: 12.5em;
+  height: 12.5em;
+  clip: rect(0px, 12.5em, 12.5em, 6.25em);
+  animation: bake-pie 1s; }
+  .slice span {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    width: 12.5em;
+    height: 12.5em;
+    border-radius: 50%;
+    clip: rect(0px, 12.5em, 12.5em, 6.25em); }
+
+.legend {
+  width: 11em;
+  padding-left: 1em;
+  float: left; }
+  .legend ul {
+    list-style-type: none;
+    list-style-position: inside;
+    font-size: 0.8em; }
+  .legend li {
+    height: 1.25em;
+    margin-bottom: 0.7em;
+    padding-left: 0.5em;
+    border-left: 1.25em solid black; }
+  .legend em {
+    font-style: normal; }
+  .legend span {
+    float: right;
+    font-weight: bold; }
+
 /*# sourceMappingURL=app.css.map */
