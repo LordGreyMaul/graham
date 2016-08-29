@@ -4,9 +4,19 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 use Carbon\Carbon;
+use Cviebrock\EloquentSluggable\Sluggable;
+
 
 class articles extends Model
 {
+    use Sluggable;
+    public function sluggable() {
+        return [
+            'slug' => [
+                'source' => ['title']
+            ]
+        ];
+    }
     protected $fillable = [
         'title',
         'body',

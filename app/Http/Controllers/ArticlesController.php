@@ -33,6 +33,7 @@ class ArticlesController extends Controller
     public function show($id)
     {
         $articles = articles::findOrFail($id);
+        $recent = articles::latest()->published()->get()->take(2);
         return view('Articles.show' , compact('articles'));
     } 
     //Edit Articles

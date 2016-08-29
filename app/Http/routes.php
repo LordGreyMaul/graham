@@ -16,7 +16,7 @@ Route::get('/', 'PagesController@index');
 Route::get('resume' , 'PagesController@resume');
 Route::get('portfolio' , 'PagesController@portfolio');
 Route::get('blog' , 'PagesController@blog');
-Route::get('show/{id}' , 'PagesController@show');
+Route::get('show/{slug}' , 'PagesController@show');
 Route::get('about' , 'PagesController@about');
 Route::get('contact', 
   ['as' => 'contact', 'uses' => 'ContactController@create']);

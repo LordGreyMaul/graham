@@ -214,6 +214,7 @@
             acceptedFiles: '.jpg, .jpeg, .png'
             };
         </script>
+        <script id="dsq-count-scr" src="//http-www-grahammorby-raybould-info.disqus.com/count.js" async></script>
         {{-- <script src="{{ elixir('js/app.js') }}"></script> --}}
     </body>
 </html>

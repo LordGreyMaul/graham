@@ -16,11 +16,12 @@
 	<div class="row">
 		<div class="col-md-12">
 		<hr>
-			<table class="table table-bordered">
+			<table class="table table-bordered table-striped table-responsive">
 				<thead class="thead-inverse">
 				<tr>
-					<td>Title</td>
+					<td width="15%">Title</td>
 					<td>Body</td>
+					<td>Template</td>
 					<td>Edit</td>
 					<td>View</td>
 				</tr>
@@ -29,8 +30,9 @@
 					@foreach($articles as $article)
 					<tr>
 						<td>{{$article->title}}</td>
-						<td>{{strip_tags($article->body)}}</td>
-						<td><a href="articles/{{$article->id}}/edit" class="btn btn-primary">Edit</a></td>
+						<td>{!! strip_tags($article->body , '<p><em><strong><a><h2><h1><h3><iframe><pre><code>') !!}</td>
+						<td>{{$article->template}}</td>
+						<td><a href="articles/{{$article->id}}/edit" class="btn btn-success">Edit</a></td>
 						<td><a href="articles/{{$article->id}}" class="btn btn-primary">View More</a></td>
 					</tr>
 					@endforeach

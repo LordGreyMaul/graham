@@ -15,12 +15,11 @@ class PagesController extends Controller
 		return view('welcome' , compact('articles'));
     }
 
-    //Show articles
-    public function show($id)
-    {
-    	$articles = articles::findOrFail($id);
+    public function show($slug)
+    { 
+        $article = articles::where('slug','=',$slug)->first(); 
         $recent = articles::latest()->published()->get()->take(2);
-    	return view('show' , compact('articles' , 'recent'));
+        return view('show' ,array( 'article' => $article, 'recent' => $recent));
     }
     // show and manage blog page
     public function blog()

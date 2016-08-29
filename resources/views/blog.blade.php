@@ -15,7 +15,7 @@
             <div class="col-md-6 col-sm-12 col-xs-12 journal-text">
                 <h1>{{$article->title}}</h1>
 
-                <a href="show/{{$article->id}}">Read More</a>
+                <a href="show/{{$article->slug}}">Read More</a>
             </div>
             <div class="col-md-6 col-sm-12 col-xs-12 journal-image">
                 <div class="category">
