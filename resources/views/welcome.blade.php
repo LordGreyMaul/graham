@@ -90,19 +90,40 @@
         </div>
         <div class="resume-line row">
             <div class="col-md-3 col-sm-4 col-xs-12 resume-left">
-                <h3>6 years</h3>
+                <h3>Ongoing</h3>
                 <p>2010-Ongoing</p>
             </div>
             <div class="col-md-9 col-sm-8 col-xs-12 resume-right first-right">
                 <h3>Freelancer</h3>
                 <p>Front end developer for many companies around the south coast of England. Using skills including
-                HTML, CSS, SASS and PHP. </p>
+                    HTML, CSS, SASS and PHP. </p>
             </div>
         </div>
         <div class="resume-line row">
             <div class="col-md-3 col-sm-4 col-xs-12 resume-left">
-                <h3>3 years</h3>
-                <p>2011-2014</p>
+                <h3>Ongoing</h3>
+                <p>2017-Ongoing</p>
+            </div>
+            <div class="col-md-9 col-sm-8 col-xs-12 resume-right">
+                <h3>The Tech Dojo</h3>
+                <p>Senior PHP developer working on a new CRM system built around Vue.js and Laravel on the backend. Also managing a team of developers and planning day to day
+                    IT tasks for 2 seperate companies.</p>
+            </div>
+        </div>
+        <div class="resume-line row">
+            <div class="col-md-3 col-sm-4 col-xs-12 resume-left">
+                <h3>1 years</h3>
+                <p>2016-2017</p>
+            </div>
+            <div class="col-md-9 col-sm-8 col-xs-12 resume-right">
+                <h3>Lendy The Property Platform</h3>
+                <p>Working for a market leader in the Property Finance market. Putting my PHP skills to use and learning Javascript to help code a Javascript One Page App.</p>
+            </div>
+        </div>
+        <div class="resume-line row">
+            <div class="col-md-3 col-sm-4 col-xs-12 resume-left">
+                <h3>2 years</h3>
+                <p>2014-2016</p>
             </div>
             <div class="col-md-9 col-sm-8 col-xs-12 resume-right">
                 <h3>Ultimate Pet Insurance</h3>
