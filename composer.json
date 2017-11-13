@@ -4,10 +4,11 @@
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "type": "project",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
-        "draperstudio/laravel-contact": "^0.1.1",
         "cviebrock/eloquent-sluggable": "^4.0"
     },
     "require-dev": {

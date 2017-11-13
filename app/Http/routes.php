@@ -17,6 +17,7 @@ Route::get('resume' , 'PagesController@resume');
 Route::get('portfolio' , 'PagesController@portfolio');
 Route::get('blog' , 'PagesController@blog');
 Route::get('show/{slug}' , 'PagesController@show');
+Route::get('videos' , 'PagesController@video');
 Route::get('about' , 'PagesController@about');
 Route::get('contact', 
   ['as' => 'contact', 'uses' => 'ContactController@create']);
@@ -29,6 +30,7 @@ Route::post('contact',
 Route::get('login', 'Auth\AuthController@showLoginForm');
 Route::post('login', 'Auth\AuthController@login');
 Route::get('logout', 'Auth\AuthController@logout');
+
 
 // Registration Routes... removed!
 

@@ -43,4 +43,9 @@ class PagesController extends Controller
         return view('about');
     }
 
+    //Show Video
+    public function video() {
+        return view('video');
+    }
+
 }

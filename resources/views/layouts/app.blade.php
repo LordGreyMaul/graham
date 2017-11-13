@@ -64,6 +64,7 @@
                                     <li><a href="{{ URL::asset('/about') }}">About</a></li>
                                     <li><a href="{{ URL::asset('/resume') }}">Resume</a></li>
                                     <li><a href="{{ URL::asset('/portfolio') }}">Work</a></li>
+                                    <li><a href="{{ URL::asset('/videos')}}">Videos</a></li>
                                     <li><a href="{{ URL::asset('/blog') }}">Blog</a></li>
                                     <li><a href="{{ URL::asset('/contact') }}">Contact</a></li>
                                 </ul>
